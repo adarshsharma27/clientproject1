@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1551706872-893907c44a3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+    <!-- add your photo url in href above-->
+    <title>MY WEBSITE</title>
+
+    <style>
+    html{
+            scroll-behavior:smooth;
+        }
+
+    body{
+        background-color: #d3d3d330;
+    }
+     header nav{
+      background-color:#709dca;
+        width: 1349px;
+        height: 60px;
+        margin-left: -8px;
+        margin-top: -16px;
+}
+     
+     header nav ul{
+        display:flex;
+        justify-content:space-evenly;
+        line-height:60px;
+        margin-left: -46px;
+     }
+     ul li{
+         list-style:none;
+    
+     }
+     header nav ul li ul{
+        display:flex;
+        flex-direction:column;
+        
+    
+    }
+    header nav ul li ul li{
+        margin-left: -32px;
+        background-color:aqua;
+        width: 79px;
+        display:none;
+    
+    }
+    header nav ul li ul li a{
+         padding: 6px;
+    }
+    
+
+     ul li a{
+        text-decoration: none;
+        color: floralwhite;
+        font-weight: bold;
+        letter-spacing: 4px;
+        word-spacing: -1px;
+        font-size: 17px;
+     }
+     h2 ,a{
+        margin: 0 auto;
+        color: darkslategray;
+        text-decoration: none;
+        }
+    
+    ul li a:active{
+        display: block;
+        border-bottom: 2px solid greenyellow;
+    }
+     ul li a:hover{
+        display: block;
+        border-bottom: 2px solid greenyellow;
+     }
+     img {
+        border-radius: 20px;
+        background-position: 100% 100%;
+        width: 159px;
+        height: 163px;
+        border-radius: 142px;
+     }
+     .intro{
+        padding-top: 40px;
+     }
+     span{
+        display: block;
+        color:white;
+        font-size: 36px;
+        margin-top: -23px
+     }
+     button{
+         background-color: #318b6a;
+         cursor:pointer;
+         width:105px;
+         height:45px;
+         border:2px solid #318b6a;
+         border-radius:10px;
+         font-size: 19px;
+     }
+     button a:hover{
+        color: #26d83e;
+     }
+     .color{
+        color:white;
+
+     }
+     .photo{
+        display: flex;
+        flex-direction: row;
+        margin-top: -18px;
+        width: 1349px;
+        margin-left: -8px;
+        background-color: #e7edf3;
+        height: 505px;
+    }
+    h1,p{
+        color: white;
+        font-size: 26px;
+        font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+        font-weight: 600
+    }
+    h3{    
+        font-size: 30px;
+        -webkit-text-stroke: 1px #fbc09d;
+        letter-spacing: 5px;
+        margin: 18px auto;
+        color: #fbc09d;
+        letter-spacing: 10px;
+        word-spacing: 5px ;
+        padding-top: 15px;
+    }
+
+    
+    .fa-facebook-square {
+        font-size: 5em;
+        margin: 14px auto;
+        color:#6baff6;
+    }
+    .fa-linkedin-square {
+        font-size: 5em;
+        margin: 14px auto;
+        color: #0077b5;
+    }
+    .fa-instagram {
+        font-size: 5em;
+        margin: 14px auto;
+        color: #e4405f;
+    }
+    
+  .fa-envelope{
+    color: #fbc09d;
+    font-size: 2.5em
+  }
+iframe{
+    width: 1340px;
+    height: 520px;
+    margin-right: -8px;
+    border-left: 5px dashed #a2caa2;
+}
+  .footer{
+    width: 1349px;
+    height: 110px;
+    background-color: #ffc155;
+    margin-left: -8px;
+    margin-top: -4px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 54px;
+  }
+  .footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+  }
+  .footer ul li{
+    padding-right: 40px;
+  }
+  
+    abbr{
+        text-decoration:none;
+    }
+    h6{
+        text-align: center;
+        font-size: 12px;
+        word-spacing: 6px;
+        color: green;
+    }
+   ::selection{
+       background-color:lightgreen;
+       color:black;
+     }
+
+.heading{
+    width: 1349px;
+    margin-left: -8px;
+    background-color: #e7edf3;
+    height: 69px;
+    text-align: center;
+    margin-top:-10px;
+    margin-top: -17px;
+}
+.content{
+    border: 2px solid #ffc155;
+    margin: 0 auto;
+    width: 550px;
+    height: 396px;
+    text-align: center;
+    padding-top: 31px;
+    margin-top: 39px;
+    border-radius: 10px;
+
+} 
+.footer-1{
+    margin: -14px auto;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fa-bell{
+    position: absolute;
+    color: red;
+    margin-top: -8px;
+    margin-left: -3px;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header class="nav-bar" id="hidden">
+       <nav>
+          <ul>
+              <li><a href=>MY BLOG<i class="fa fa-user" aria-hidden="true"></i></a></li>
+              <li><a href="#second">ACHIEVEMENT<i class="fa fa-certificate" aria-hidden="true"></i></a></li>
+              <li><a href="#contact">RECRUITMENT<i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#">VIDEOS<i class="fa fa-video-camera" aria-hidden="true"></i>  </a></li>
+              <li><a href="#">TEAM<i class="fa fa-group" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+    </header>
+        <div class="heading">
+                <h3>WELCOME TO MY WEBSITE</h3>
+                        </div>
+            <div class="photo">
+                <div class="content">
+        <img src="https://images.unsplash.com/photo-1551706872-893907c44a3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="photo"/>
+         <!-- add your photo url in href above-->       
+        <p><q> To succeed in your mission, you must have single-minded devotion to your goal.</q></p>
+            <a href="mailto:aadarshs1998gmail.com" id="disable" onclick="dis()"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <i class="fa fa-bell" aria-hidden="true"></i>
+                                                            </div>
+                                                                          </div>   
+            <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27925.57179292332!2d77.6938737!3d28.96672590000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c645da0785f07%3A0x6f58c59af3ce3218!2sBrahmpuri%2C+Meerut%2C+Uttar+Pradesh+250002!5e0!3m2!1sen!2sin!4v1545905821277" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                            </div>                            
+                                            
+     <div class="footer">
+       
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+        <a href="#" class="footer-1" ><i class="fa fa-phone " style="color:white" aria-hidden="true"></i> CONTACT NO.(91+)8057978202</a>
+                                    </div>                    
+                        <script>
+                            function dis(){
+                        document.getElementById("#disable").disabled= true;   
+                    }
+                        </script>        
+</body>
+</html>
